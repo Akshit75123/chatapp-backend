@@ -8,10 +8,12 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(
+        origins = "https://chat-frontend-xi-jade.vercel.app",
+        allowedHeaders = "*"
+)
 @RestController
 @RequestMapping("api/v1/rooms")
-//@CrossOrigin(AppConstants.frontend_base_url)
- @CrossOrigin("https://chat-frontend-xi-jade.vercel.app/")
 public class RoomController {
 
     private final RoomServices roomServices;
