@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
- @CrossOrigin("https://chat-without-limits.vercel.app")
+ @CrossOrigin("https://chat-frontend-xi-jade.vercel.app/")
 //@CrossOrigin(AppConstants.frontend_base_url)
 public class ChatController {
     private RoomServices roomServices;

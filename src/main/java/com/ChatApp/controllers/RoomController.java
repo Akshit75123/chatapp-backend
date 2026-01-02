@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("api/v1/rooms")
 //@CrossOrigin(AppConstants.frontend_base_url)
- @CrossOrigin("https://chat-without-limits.vercel.app")
+ @CrossOrigin("https://chat-frontend-xi-jade.vercel.app/")
 public class RoomController {
 
     private final RoomServices roomServices;

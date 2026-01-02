@@ -14,7 +14,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
 //                        .allowedOrigins(AppConstants.frontend_base_url)
-                        .allowedOrigins("https://chat-without-limits.vercel.app")
+                        .allowedOrigins("https://chat-frontend-xi-jade.vercel.app/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);
