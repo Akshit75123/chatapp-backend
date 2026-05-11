@@ -126,11 +126,6 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Contact
-
-For questions or support, please reach out to the project maintainer:
-- **GitHub:** [Akshit75123](https://github.com/Akshit75123)
-
 ## Support
 
 If you encounter any issues or have questions, please open an issue on the [GitHub Issues](https://github.com/Akshit75123/chatapp-backend/issues) page.
